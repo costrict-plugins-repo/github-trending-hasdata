@@ -1,0 +1,65 @@
+{
+    "name": "hasdata",
+    "description": "Official HasData plugins for Claude Code. Real-time web data from dedicated APIs covering search, e-commerce, real estate, local business, jobs, and travel, plus generic URL scraping.",
+    "owner": {
+        "name": "HasData",
+        "email": "info@hasdata.com",
+        "url": "https://hasdata.com"
+    },
+    "plugins": [
+        {
+            "name": "hasdata",
+            "displayName": "HasData",
+            "source": "./",
+            "description": "Structured data from Google results, AI Mode, Maps, Amazon, Walmart, Zillow, Indeed, Yelp, YouTube, TikTok and flights, or any URL as markdown. Connects to HasData for you. Commands for local lead lists, price checks and company enrichment.",
+            "version": "1.1.4",
+            "author": {
+                "name": "HasData",
+                "email": "info@hasdata.com",
+                "url": "https://hasdata.com"
+            },
+            "category": "development",
+            "license": "MIT",
+            "homepage": "https://hasdata.com",
+            "repository": "https://github.com/HasData/hasdata-claude-plugin",
+            "keywords": [
+                "web-scraping",
+                "serp-api",
+                "google-maps",
+                "data-extraction",
+                "lead-generation",
+                "real-estate",
+                "e-commerce"
+            ],
+            "skills": [
+                "./skills/hasdata-cli",
+                "./skills/hasdata-search",
+                "./skills/hasdata-serp",
+                "./skills/hasdata-serp-light",
+                "./skills/hasdata-ai-mode",
+                "./skills/hasdata-ai-overview",
+                "./skills/hasdata-news",
+                "./skills/hasdata-images",
+                "./skills/hasdata-trends",
+                "./skills/hasdata-scholar",
+                "./skills/hasdata-shorts",
+                "./skills/hasdata-events",
+                "./skills/hasdata-shopping",
+                "./skills/hasdata-scrape",
+                "./skills/hasdata-maps",
+                "./skills/hasdata-ecommerce",
+                "./skills/hasdata-walmart",
+                "./skills/hasdata-prices",
+                "./skills/hasdata-realestate",
+                "./skills/hasdata-hotels",
+                "./skills/hasdata-jobs",
+                "./skills/hasdata-business",
+                "./skills/hasdata-social",
+                "./skills/hasdata-youtube",
+                "./skills/hasdata-tiktok",
+                "./skills/hasdata-facebook",
+                "./skills/hasdata-flights"
+            ]
+        }
+    ]
+}
